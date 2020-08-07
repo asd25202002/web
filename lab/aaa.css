@@ -1,0 +1,17 @@
+td.aaa{  
+    background-color: rgb(200, 255, 212);
+    color: rgb(0, 112, 47); 
+    font-size: 15pt;
+}
+td.break{
+    background: rgb(236, 255, 240);
+    color:rgb(0, 112, 47);
+    font-family: Microsoft JhengHei;
+    font-size: 25pt;
+    text-align: center;
+}
+td{
+    background: rgb(236, 255, 240);
+    font-family: Microsoft JhengHei;
+    text-align: center;
+}
