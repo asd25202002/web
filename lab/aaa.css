@@ -1,8 +1,35 @@
-td.aaa{  
+table{
+    width: 99vw;
+}
+caption{
+    font-size: 14pt;
+}
+/* thead{
+    background: rgb(200, 255, 212);
+    color: rgb(0, 112, 47);
+    font-family: DFKai-sb;
+    font-size: 15pt;
+} */
+tr.first{
+    background: rgb(125, 132, 178);
+}
+tr.second{
+    background: rgb(142, 157, 204);
+}
+tr.third{
+    background: rgb(217, 219, 241);
+}
+tr.fourth{
+    background: rgb(249, 249, 237);
+}
+tr.fifth{
+    background: rgb(219, 244, 167);
+}
+/* td.title{  
     background-color: rgb(200, 255, 212);
     color: rgb(0, 112, 47); 
     font-size: 15pt;
-}
+} */
 td.break{
     background: rgb(236, 255, 240);
     color:rgb(0, 112, 47);
@@ -10,8 +37,12 @@ td.break{
     font-size: 25pt;
     text-align: center;
 }
-td{
+/* td{
     background: rgb(236, 255, 240);
     font-family: Microsoft JhengHei;
     text-align: center;
+} */
+
+div.nav-btn{
+    background-color: black;
 }
