@@ -6,9 +6,16 @@
     <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="about.css">
     <link rel="stylesheet" href="product.css">
+    <script type="text/javascript" src="jquery-3.5.1.js"></script>
+    <script type="text/javascript" src="jquery.cycle.all.js"></script>  
+    <script type="text/javascript">
+    $(document).ready(function () {
+        $('.content').cycle({
+            fx: 'fade',nowrap: 1,timeout:1000});});
+    </script>
     <title>未命名</title>
 </head>
-<body>
+<body style="margin: 0;">
     <!--首頁-->
     <div id="index">
         <div class="header"> 
@@ -22,28 +29,14 @@
                     <li>商品介紹</li>
                 </ul>
             </div>
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
         </div>
-        
-            
-
-
-
-
-        
-        <!-- 內容 -->
+        <div class="content">
+            <img src="content3.jpg" alt="" width="100%" height="100vh"> 
+            <img src="content2.jpg" alt="" width="100%" height="100vh">
+            <img src="content1.jpg" alt="" width="100%" height="100vh">
+            <img src="contentfinal.jpeg" alt="" width="100%" height="100vh">
+        </div>
     </div>
-    
     <!--關於我們-->
     <div id="about">
         <!-- 內容 -->
