@@ -1,0 +1,7 @@
+#index{
+    height: 200px;
+}
+#index div.title{
+    color: red;
+    font-size: 25pt;
+}

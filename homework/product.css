@@ -1,0 +1,7 @@
+#product{
+    height: 200px;
+}
+#product div.title{
+    color:blue;
+    font-size: 25pt;
+}
