@@ -1,7 +1,18 @@
 #product{
+    display: grid;
     height: 200px;
 }
 #product div.title{
     color:blue;
     font-size: 25pt;
+    text-align: left;
+    text-align: top;
+    grid-column-start: 1;
+}
+#product div.main{
+    color:blue;
+    font-size: 25pt;
+    text-align: left;
+    text-align: top;
+    grid-column-start: 2;
 }
