@@ -1,0 +1,49 @@
+#index{
+    
+}
+#index div.header{
+    background-color: rgb(24, 24, 24);
+    width: 100%;
+    height: 13vh;
+    display: grid;
+
+}
+#index div.logo {
+    height: 13vh;
+    grid-column-start: 1;
+        
+}
+
+#index div.logo img{
+    height: 13vh;
+}
+
+#index div.list{
+    margin:0 30px;
+    grid-column-start: 2; 
+}
+#index div.list ul{
+    margin: 0 30px;
+    height: 13vh;
+    line-height: 20vh;
+    text-align: right;
+}
+
+#index div.list ul li{
+    display: inline;
+    color: white;
+}
+
+#index div.content{
+    height:  100vh;  
+    width:   100%;  
+    padding: 0;  
+    margin:  0;
+    overflow:hidden; 
+}
+
+#index div.content img{
+    width:  100%; 
+    height: 100vh; 
+}
+
