@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="css/about.css">
     <link rel="stylesheet" href="css/product.css">
     <script type="text/javascript" src="js/jquery-3.5.1.js"></script>
-    <script type="text/javascript" src="js/jquery.cycle.all.js"></script>  
+    <script type="text/javascript" src="js/jquery.cycle.all.js"></script>
     <script type="text/javascript">
     $(document).ready(function () {
         $('.content').cycle({
@@ -43,15 +43,18 @@
     </div>
     <!--商品介紹-->
     <div id="product">
-        <div class="title">
-            標題
+        <div class="text">
+            <div class="p_title">標題</div>
+            <div id="p_txt"></div>
         </div>
-        <div class="main">
-            <input id="txt1" type="text" />
-            <input id="btn1" type="button" value="改文字"/>
-            <input id="btn2" type="button" value="清空文字"/>
+        <div class="product_img">
+            <img id="p_img" src="Images/product1.png">
+            <input id="btn1" type="button" value="上一張"/>
+            <input id="btn2" type="button" value="下一張"/>
             <script src="js/product.js"> </script>
         </div>
     </div>
+    <!-- footer -->
+    <!-- <div>@更新日期2020/08/18</div> -->
 </body>
 </html>
