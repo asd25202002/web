@@ -1,0 +1,63 @@
+body{
+    margin: 0;
+    display: grid;
+    /* 直切 */
+    grid-template-columns: 300px 1fr;
+    height: 100vh;
+}
+div.left{
+    display: grid;
+    /* 橫切 */
+    grid-template-rows: 60% 40%;
+    background:rgb(255, 180, 68);
+}
+.left .menu{
+    display: grid;
+    grid-template-rows: 1fr 3fr;
+}
+.left .menu .menu_title{
+    font-family:DFKai-sb;
+    color: rgb(83, 54, 0);
+    font-size: 25pt;
+}
+.left .menu .menu_main ul{
+    list-style:none;
+}
+.left .menu .menu_main ul li{
+    margin-top: 5vh;
+}
+.left .menu .menu_main ul li a{
+    text-decoration:none;
+    font-family:Microsoft JhengHei;
+    font-size: 15pt;
+    color: rgb(58, 57, 57);
+}
+.left .menu .menu_main ul li a:hover{
+    color: white;
+}
+.left .food img{
+    vertical-align:bottom;
+    width: 30vw;
+}
+div.right{
+    display: grid;
+    /* 橫切 */
+    grid-template-rows:10% 90%; 
+}
+.right .header{
+    background:rgb(255, 251, 192);
+    font-size: 45pt;
+    color: rgb(155, 111, 0);
+    font-family:Microsoft JhengHei;
+}
+.right .main table{
+    margin-top: 5vh;
+    width: 70vw;
+    height: 70vh;
+}
+.right .main table caption{
+    font-size:20pt;
+}
+.right .main table th{
+    background: rgb(255, 181, 121);
+}
