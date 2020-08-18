@@ -1,7 +1,14 @@
 #product{
+    display: grid;
     height: 200px;
+    background-color: rgb(24, 24, 24);
 }
 #product div.title{
-    color:blue;
+    grid-template: 1/2fr;
+    color:white;
     font-size: 25pt;
+}
+#product div.main{
+    grid-template: 1/sapn 2;
+    text-align: center;
 }
