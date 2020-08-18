@@ -1,0 +1,61 @@
+body{
+    margin: 0;
+    height: 100vh;
+}
+.right{
+    padding: 0;
+}
+.title{
+    height: 10vh;
+    line-height: 10vh;
+    background: rgb(255, 190, 137);
+    text-align: center;
+    font-family:DFKai-sb;
+    font-size: 30pt;
+}
+.menu{
+    height: 100vh;
+    background: rgb(53, 53, 53);
+}
+.menu_title{
+    color: white;
+    font-size: 25pt;
+    font-family:Microsoft JhengHei;
+}
+.menu_ch{
+    color: white;
+    font-size: 15pt;
+    font-family:Microsoft JhengHei;
+}
+.menu_ch ul{
+    list-style:none;
+}
+.menu_ch ul li{
+    margin-top: 5vh;
+}
+.menu_ch ul li a{
+    text-decoration:none;
+    font-family:Microsoft JhengHei;
+    font-size: 15pt;
+    color: white;
+}
+.menu_ch ul li a:hover{
+    color: rgb(179, 179, 179);
+}
+.main{
+    height: 90vh;
+    background: rgb(255, 241, 235);
+}
+.main table{
+    margin-top: 2vh;
+    width: 70vw;
+    height: 40vh;
+}
+.main .table_title{
+    margin-top: 3vh;
+    text-align: center;
+    font-size: 25pt;
+}
+.main img{
+    width: 20vw;
+}
