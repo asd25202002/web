@@ -18,15 +18,14 @@
     border-radius: 8px;
     background: white;
     text-align: center;
-    color:white;
     font-size: 15pt;
 }
 #product div.product_img{
+    margin: 5vh;
     color:white;
     font-size: 25pt;
 }
-.product_img #p_img{
-    margin: 5vh;
+.carousel-item img{
     width: 500px;
     height: 400px;;
 }
