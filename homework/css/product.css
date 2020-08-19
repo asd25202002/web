@@ -12,12 +12,13 @@
 }
 .text .p_title{
     color:white;
-    font-size: 20pt;
+    font-size: 15pt;
 }
 .text #p_txt{
     border-radius: 8px;
     background: white;
-    text-align: center;
+    text-align: left;
+    line-height: 4vh;
     font-size: 15pt;
 }
 #product div.product_img{
