@@ -3,9 +3,58 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/js/all.min.js" integrity="sha512-YSdqvJoZr83hj76AIVdOcvLWYMWzy6sJyIMic2aQz5kh2bPTd9dzY3NtdeEAzPp/PhgZqr4aJObB3ym/vsItMg==" crossorigin="anonymous"></script>
     <title>網頁製作</title>
+    <style>
+        body{margin:0; padding:0; background:#eee;}
+        #top-bar{
+             width:100%;
+             height:50px;
+             background:#32b3bf;
+             position:fixed; 
+             top:0;
+             
+             /* CSS3 陰影*/
+            -webkit-box-shadow: 0px 8px 15px #333;
+            -moz-box-shadow: 0px 8px 15px #333;
+            box-shadow: 0px 8px 15px #333;
+             
+        }
+        
+        #menu{width:900px; margin:0 auto; line-height:50px;}
+        #menu b, #menu a{color:#fff; padding:0 20px;}
+    </style>
+
+    <script src="jquery-1.9.1.min.js"></script>
+    <script>
+        $(function(){
+            $(window).load(function(){
+                $(window).bind('scroll resize', function(){
+                    var $this = $(this);
+                    var $this_Top=$this.scrollTop();
+                    var a = document.getElementById('top-bar');
+                    if($this_Top < 5){
+                        a.style.background = "#32b3bf";
+                    }
+                    if($this_Top > 5){
+                        a.style.background = 'black';
+                                
+                    }
+                }).scroll();
+            });
+        });
+    </script>
 </head>
-<body>
+<body style="margin: 0;">
+    <div id="top-bar">
+        <div id="menu">
+            <b>梅問題</b>
+            <a href="http://www.minwt.com">教學網</a>
+            <a href="http://iapp.minwt.com">iAPP網</a>
+            <a href="http://file.minwt.com">檔案庫</a>
+        </div>
+    </div>
     <div>
         <h1>網頁製作</h1>
     </div>   
