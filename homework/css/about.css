@@ -73,7 +73,6 @@
     -moz-animation: fade-in 4s ease 0s 1;
     -o-animation: fade-in 4s ease 0s 1;
     -ms-animation: fade-in 4s ease 0s 1;
-    
     /*规定动画的最后状态为结束状态*/
     animation-fill-mode:forwards;
     -webkit-animation-fill-mode: forwards;  

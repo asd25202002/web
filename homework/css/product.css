@@ -1,32 +1,17 @@
 #product{
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    background-color: rgb(24, 24, 24);
+    grid-template-rows: 1fr 1fr;
 }
-#product div.text{
-    margin-left: 5vh;
-    margin-top: 5px;
-    display: grid;
-    grid-template-rows: 5vh 395px;
-    font-family: DFKai-sb;
-}
-.text .p_title{
-    color:white;
-    font-size: 15pt;
-}
-.text #p_txt{
-    border-radius: 8px;
-    background: white;
-    text-align: left;
-    line-height: 4vh;
-    font-size: 15pt;
-}
-#product div.product_img{
-    margin: 5vh;
-    color:white;
-    font-size: 25pt;
+.Nav{
+    margin-top: 5vh;
+    margin-right: 2vw;
+    margin-left: 2vw;
 }
 .carousel-item img{
-    width: 500px;
-    height: 400px;;
+    
+    height: 80vh;;
+}
+.text .p_title{
+    text-align: center;
+    font-size: 25pt;
 }

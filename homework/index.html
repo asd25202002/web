@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="css/about.css">
     <link rel="stylesheet" href="css/product.css">
+    <link rel="stylesheet" href="css/footer.css">
     <script type="text/javascript" src="js/jquery-3.5.1.js"></script>
     <script type="text/javascript" src="js/jquery.cycle.all.js"></script>
     <script type="text/javascript">
@@ -17,89 +18,92 @@
     <title>未命名</title>
 </head>
 <body style="margin: 0;">
-    <!--首頁-->
-    <div id="index">
-        <div class="header"> 
-            <div class="logo">
-                <img src="Images/logo.png">
-            </div>
-            <div class="list">
-                <ul>
-                    <li><a href="#index" >首頁</a></li>
-                    <li><a href="#about">關於我們</a></li>
-                    <li><a href="#product">商品介紹</a></li>
-                </ul>
-            </div>
-        </div>
-        <div class="content">
-            <img src="Images/content3.jpg" alt="" width="100%" height="100vh"> 
-            <img src="Images/content2.jpg" alt="" width="100%" height="100vh">
-            <img src="Images/content1.jpg" alt="" width="100%" height="100vh">
-            <img src="Images/contentfinal.jpeg" alt="" width="100%" height="100vh">
-        </div>
-    </div>
-    <!--關於我們-->
-    <div id="about">
-        <!-- 內容 -->
-        <div class="fade-in-words">
-          <div class="first-words">關於我們</div>
-          <div class="second-words">這是一個購物平台</div>
-          <div class="third-words">保證便宜,保證應有盡有</div>
-          <div class="four-words">凡是來我們這邊消費的顧客</div>
-          <div class="five-words">每個都笑呵呵</div>
-          <div class="six-words">跟下圖的貓一樣</div>
+  <button onclick="topFunction()" id="myBtn" title="Gotop"><img src="圖片網址"></button>
+  <!--首頁-->
+  <div id="index">
+      <div class="header">
+          <div class="logo">
+              <img src="Images/logo.png">
+          </div>
+          <div class="list">
+              <ul>
+                  <li><a href="#index" >首頁</a></li>
+                  <li><a href="#about">關於我們</a></li>
+                  <li><a href="#product">商品介紹</a></li>
+              </ul>
+          </div>
       </div>
-      <div class='box'>
-          <div class='box2'><img src="Images\laugh.png" width="800" height="800"></div>
+      <div class="content">
+          <img src="Images/content3.jpg" alt="" width="100%" height="100vh"> 
+          <img src="Images/content2.jpg" alt="" width="100%" height="100vh">
+          <img src="Images/content1.jpg" alt="" width="100%" height="100vh">
+          <img src="Images/contentfinal.jpeg" alt="" width="100%" height="100vh">
       </div>
-      <script src="js/about.js"></script>
+  </div>
+  <!--關於我們-->
+  <div id="about">
+      <!-- 內容 -->
+      <div class="fade-in-words"> 
+        <div id="first-words">關於我們</div> <!--first-words-->
+        <div id="second-words">這是一個購物平台</div> <!--second-words-->
+        <div id="third-words">保證便宜,保證應有盡有</div> <!--third-words-->
+        <div id="four-words">凡是來我們這邊消費的顧客</div>  <!--four-words-->
+        <div id="five-words">每個都笑呵呵</div> <!--five-words-->
+        <div id="six-words">跟下圖的貓一樣</div>  <!--six-words-->
     </div>
-    <!--商品介紹-->
-    <div id="product">
-        <div class="text">
-            <div class="p_title">Microsoft Surface Pro7 i5 8G 128G 12.3吋 白金 VDV-00011</div>
-            <div id="p_txt"><br>【主機+黑鍵盤組】<br>
-                2020年，3C產品只有一種功能未免也太Low了，微軟Microsoft打造出了這款一機二用的電子產品，可應對各式生活場景。上班辦公可接上Surface Pro鍵盤，進入認真模式大顯身手；週末可將鍵盤拆下，體驗平板模式帶來的觸覺享受，逛網拍、玩手遊、看影片，一指搞定，您的電腦由您做主！
-                Microsoft Surface Pro7產品介紹：<br>
-                ※機身700多公克重量(不含鍵盤保護蓋)，輕巧超便攜！<br>
-                ※支援 筆記型電腦/工作室/平板模式，針對當下需求隨時切換！<br>
-                ※支援Widows 10家用版，原廠打造超高相容性！<br>
-                ※可加購各色原廠配件(如Surface Pen、無線滑鼠、鍵盤保護蓋)
-                打造個性化3C單品！</div>
-        </div>
-        <div class="product_img">
-            <div id="carouselExampleIndicators" class="carousel slide">
-                <ol class="carousel-indicators">
-                  <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                  <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                  <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-                </ol>
-                <div class="carousel-inner">
-                  <div class="carousel-item active">
-                    <img src="Images/product1.png" class="d-block w-100" alt="...">
-                  </div>
-                  <div class="carousel-item">
-                    <img src="Images/product2.png" class="d-block w-100" alt="...">
-                  </div>
-                  <div class="carousel-item">
-                    <img src="Images/product3.jpg" class="d-block w-100" alt="...">
-                  </div>
+    <div class='box'>
+        <div class='box2'><img src="Images\laugh.png" width="800" height="800"></div>
+    </div>
+  </div>
+  <!--商品介紹-->
+  <div id="product">
+      <div class="Nav">
+          <div id="carouselExampleIndicators" class="carousel slide"  data-ride="carousel" data-pause="None">
+              <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+              </ol>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="Images/product1.png" class="d-block w-100" alt="...">
                 </div>
-                <a id="btn1" class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="sr-only">Previous</span>
-                </a>
-                <a id="btn2" class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="sr-only">Next</span>
-                </a>
-            </div>
-        </div>
+                <div class="carousel-item">
+                  <img src="Images/product2.png" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="Images/product3.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="Images/product4.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="Images/product5.png" class="d-block w-100" alt="...">
+                </div>
+              </div>
+              <a id="btn1" class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a id="btn2" class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+              </a>
+          </div>
+      </div>
+      <div class="text">
+        <div class="p_title">11</div>
     </div>
-    <!-- footer -->
-    <!-- <div>@更新日期2020/08/18</div> -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
-    <script src="js/product.js"> </script>
+  </div>
+  <!-- footer -->
+  <div id = "footer">@更新日期2020/08/18</div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+  <script src="js/index.js"> </script>
+  <script src="js/product.js"> </script>
+  <script src="js/about.js"></script>
 </body>
 </html>
