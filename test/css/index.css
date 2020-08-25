@@ -1,0 +1,21 @@
+#body{
+    display: grid;
+    grid-template-rows: 10vh 1fr 50px;
+    margin: 0;
+    height: 100vh;
+}
+#header_top{
+    display: grid;
+    box-shadow: 0 5px 5px;
+    background: rgb(83, 83, 83);
+}
+#main{
+    display: grid;
+    margin-top: 50px;
+    grid-template-columns: 300px 1fr;
+    background: black;
+}
+#footer{
+    display: grid;
+    background: red;
+}
