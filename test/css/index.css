@@ -67,13 +67,14 @@ body{
 }
 
 #main{
+    position: relative;
     display: grid;
     margin-top: 10px;
     grid-template-columns: 300px 1fr;
+    height: 1000vh;
 }
 
 .p{
-    position:relative;
     text-align: right;
     animation-name: example;
     animation-duration: 2s;
@@ -82,7 +83,7 @@ body{
 @keyframes example {
     0%   {right:0px; top:0px;}
     100% {right:100px; top:0px;}
-  }
+}
 
 #footer{
     display: grid;
