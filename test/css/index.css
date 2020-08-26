@@ -72,6 +72,18 @@ body{
     grid-template-columns: 300px 1fr;
 }
 
+.p{
+    position:relative;
+    text-align: right;
+    animation-name: example;
+    animation-duration: 2s;
+}
+
+@keyframes example {
+    0%   {right:0px; top:0px;}
+    100% {right:100px; top:0px;}
+  }
+
 #footer{
     display: grid;
     line-height: 50px;
