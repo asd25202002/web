@@ -1,12 +1,3 @@
-// $(window).scroll(function(){
-//     if($(this).serollTop > 400){
-        
-//     }
-//     else{
-//         $('#gotop').fadeOut();
-//     }
-// });
-
 window.addEventListener("scroll",(event) =>{
     var y = this.scrollY;
     if(y > 400){
@@ -15,4 +6,10 @@ window.addEventListener("scroll",(event) =>{
     else{
         $('#gotop').fadeOut();
     }
+});
+
+$(function(){
+	$('#gotop').click(function(){ 
+		$('html,body').animate({scrollTop:0}, 333);
+    });
 });

@@ -1,17 +1,29 @@
 #product{
     display: grid;
-    grid-template-rows: 1fr 1fr;
 }
 .Nav{
     margin-top: 5vh;
-    margin-right: 2vw;
-    margin-left: 2vw;
+    margin-right: 5vw;
+    margin-left: 5vw;
 }
 .carousel-item img{
-    
     height: 80vh;;
 }
-.text .p_title{
-    text-align: center;
-    font-size: 25pt;
+
+#go{
+    position:fixed;
+    bottom:60px;
+    right: 20px;
+    z-index:9999;
+}
+
+#gotop{
+    display: none;
+    outline:none;
+    background-color: transparent;
+    background-image: url('file:///E:/python/web/web/homework/Images/gotop.png');
+    background-repeat:no-repeat;
+    width: 200px;
+    height: 219px;
+    border: 0;
 }
