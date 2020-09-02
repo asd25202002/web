@@ -1,0 +1,29 @@
+#product{
+    display: grid;
+}
+.Nav{
+    margin-top: 5vh;
+    margin-right: 5vw;
+    margin-left: 5vw;
+}
+.carousel-item img{
+    height: 80vh;;
+}
+
+#go{
+    position:fixed;
+    bottom:60px;
+    right: 20px;
+    z-index:9999;
+}
+
+#gotop{
+    display: none;
+    outline:none;
+    background-color: transparent;
+    background-image: url('../Images/gotop.png');
+    background-repeat:no-repeat;
+    width: 200px;
+    height: 219px;
+    border: 0;
+}

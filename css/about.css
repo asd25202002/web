@@ -1,0 +1,157 @@
+#about{
+    background-color: black;
+    display: grid;
+  }
+  
+  .first-words{
+    color: #ffffff;
+    font-size: 50px;
+  }
+  .second-words{
+    color: #ffffff;
+    font-size: 20px;
+  }
+  .third-words{
+    
+    color: #ffffff;
+    font-size: 20px;
+  }
+  .four-words{
+    color: #ffffff;
+    font-size: 20px;
+  }
+  .five-words{
+    color: #ffffff;
+    font-size: 20px;
+  }
+  .six-words{
+    color: #ffffff;
+    font-size: 20px;
+  }
+  .box{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .box2{
+    grid-column-start: 2;
+  }
+
+    
+    
+  /* 以下為文字動畫 */
+  
+  .fade-in-words{
+    width: 200px;
+    margin: 0 auto;
+    text-align: center;
+  }
+ 
+  @keyframes fade-in{  
+    0%{ opacity: 0;}
+    100%{opacity:1;}
+  }
+  @-webkit-keyframes fade-in{
+    0%{ opacity: 0;}
+    100%{opacity:1;}
+  }
+  @-ms-keyframes fade-in{
+    0%{ opacity: 0;}
+    100%{opacity:1;}
+  }
+  @-o-keyframes fade-in{
+    0%{ opacity: 0;}
+    100%{opacity:1;}
+  }
+  @-moz-keyframes fade-in{
+    0%{ opacity: 0;}
+    100%{opacity:1;}
+  }
+  .first-words{ 
+    opacity: 0;      
+    animation: fade-in 4s ease 0s 1;  
+    -webkit-animation: fade-in 4s ease 0s 1;
+    -moz-animation: fade-in 4s ease 0s 1;
+    -o-animation: fade-in 4s ease 0s 1;
+    -ms-animation: fade-in 4s ease 0s 1;
+   
+    animation-fill-mode:forwards;
+    -webkit-animation-fill-mode: forwards;  
+      -o-animation-fill-mode: forwards; 
+      -ms-animation-fill-mode: forwards;   
+      -moz-animation-fill-mode: forwards; 
+  }
+  .second-words{ 
+    opacity: 0;    
+    animation: fade-in 4s ease 2s 1;
+    -webkit-animation: fade-in 4s ease 2s 1;
+    -moz-animation: fade-in 4s ease 2s 1;
+    -o-animation: fade-in 4s ease 2s 1;
+    -ms-animation: fade-in 4s ease 2s 1;
+    
+    
+    animation-fill-mode:forwards;
+    -webkit-animation-fill-mode: forwards;  
+      -o-animation-fill-mode: forwards; 
+      -ms-animation-fill-mode: forwards;   
+      -moz-animation-fill-mode: forwards; 
+  }
+  .third-words{ 
+    opacity: 0;    
+    animation: fade-in 4s ease 4s 1;
+    -webkit-animation: fade-in 4s ease 4s 1;
+    -moz-animation: fade-in 4s ease 4s 1;
+    -o-animation: fade-in 4s ease 4s 1;
+    -ms-animation: fade-in 4s ease 4s 1;
+    
+    
+    animation-fill-mode:forwards;
+    -webkit-animation-fill-mode: forwards;  
+      -o-animation-fill-mode: forwards; 
+      -ms-animation-fill-mode: forwards;   
+      -moz-animation-fill-mode: forwards; 
+  }
+  .four-words{ 
+    opacity: 0;    
+    animation: fade-in 4s ease 6s 1;
+    -webkit-animation: fade-in 4s ease 6s 1;
+    -moz-animation: fade-in 4s ease 6s 1;
+    -o-animation: fade-in 4s ease 6s 1;
+    -ms-animation: fade-in 4s ease 6s 1;
+    
+    
+    animation-fill-mode:forwards;
+    -webkit-animation-fill-mode: forwards;  
+      -o-animation-fill-mode: forwards; 
+      -ms-animation-fill-mode: forwards;   
+      -moz-animation-fill-mode: forwards; 
+  }
+  .five-words{ 
+    opacity: 0;    
+    animation: fade-in 4s ease 8s 1;
+    -webkit-animation: fade-in 4s ease 8s 1;
+    -moz-animation: fade-in 4s ease 8s 1;
+    -o-animation: fade-in 4s ease 8s 1;
+    -ms-animation: fade-in 4s ease 8s 1;
+    
+    
+    animation-fill-mode:forwards;
+    -webkit-animation-fill-mode: forwards;  
+      -o-animation-fill-mode: forwards; 
+      -ms-animation-fill-mode: forwards;   
+      -moz-animation-fill-mode: forwards; 
+  }
+  .six-words{ 
+    opacity: 0;    
+    animation: fade-in 4s ease 10s 1;
+    -webkit-animation: fade-in 4s ease 10s 1;
+    -moz-animation: fade-in 4s ease 10s 1;
+    -o-animation: fade-in 4s ease 10s 1;
+    -ms-animation: fade-in 4s ease 10s 1;
+    
+    
+    animation-fill-mode:forwards;
+    -webkit-animation-fill-mode: forwards;  
+      -o-animation-fill-mode: forwards; 
+      -ms-animation-fill-mode: forwards;   
+      -moz-animation-fill-mode: forwards; 
+  }
