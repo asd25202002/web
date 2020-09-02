@@ -1,0 +1,9 @@
+$(document).ready(function(){
+    $(window).scroll(function(){
+        $('#scroll').text(window.scrollY);
+    });
+    $(function(){
+        $('#Flashing').fadeIn(1500);
+        $('#cat').fadeIn(1500);
+    });
+});
